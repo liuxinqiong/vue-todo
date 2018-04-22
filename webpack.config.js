@@ -18,9 +18,9 @@ const config = {
                 loader: "vue-loader"
             },
             {
-                test: /\.jsx$/,
+                test: /\.(jsx|js)$/,
                 loader: "babel-loader",
-                exclude: path.resolve(__dirname, 'node-modules/'),
+                exclude: path.resolve(__dirname, 'node_modules/'),
                 include: path.resolve(__dirname, 'src/'),
             },
             {
