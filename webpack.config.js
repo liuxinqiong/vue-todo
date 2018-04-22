@@ -17,7 +17,9 @@ const config = {
             },
             {
                 test: /\.jsx$/,
-                loader: "babel-loader"
+                loader: "babel-loader",
+                exclude: path.resolve(__dirname, 'node-modules/'),
+                include: path.resolve(__dirname, 'src/'),
             },
             {
                 test: /\.css$/,
