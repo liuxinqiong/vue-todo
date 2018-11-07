@@ -1,5 +1,5 @@
 ## 目标
-* 不使用 Vue CLI 创建慈昂木
+* 不使用 Vue CLI 创建
 * 手动配置 webpack
 * 使用 Vue 做个todo小应用
 
